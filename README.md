@@ -6,5 +6,5 @@ A very sussy esoteric language
 * `among`: print the value
 * `us`: clear the value
 ## Progress
-[x] Making a basic esoteric language
-[ ] Making the language actually Turing-complete
+* [x] Making a basic esoteric language
+* [ ] Making the language actually Turing-complete
