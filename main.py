@@ -1,6 +1,6 @@
 import argparse
 
-parser = argparse.ArgumentParser(description='Very sussy esoteric language')
+parser = argparse.ArgumentParser(prog='amogus', description='A very sussy esoteric language')
 parser.add_argument('file', type=str, nargs=1,
                     help='a sussy file to be decoded into amogus language')
 args = parser.parse_args()
@@ -19,8 +19,5 @@ for j in lexed:
         value -= 1
     elif j == "among":
         print(chr(value), end="")
-        value = 0
     elif j == "us":
-        quit()
-    elif j == "sussy":
-        print(code)    
+        value = 0

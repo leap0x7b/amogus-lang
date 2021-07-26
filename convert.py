@@ -8,4 +8,4 @@ text = input("Input text to be converted to Amogus esolang: ")
 for i in range(len(text)):
     for l in range(ord(text[i])):
         print("amogus", end=" ")
-    print("among", end=" ")
+    print("among us", end=" ")
